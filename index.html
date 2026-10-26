@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Store Sales Dashboard</title>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Chart.js library loaded via jsDelivr CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Application scripts loaded in specified order -->
+  <script src="data.js" defer></script>
+  <script src="table.js" defer></script>
+  <script src="charts.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Online Store Sales Dashboard</h1>
+    <p>University IT Project &bull; Sales Transaction Viewer</p>
+  </header>
+
+  <main class="main-container">
+    <!-- Chart Section -->
+    <section class="card">
+      <h2>Top 10 Products by Quantity Sold</h2>
+      <div class="chart-container">
+        <canvas id="salesChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Table Section -->
+    <section class="card">
+      <div class="table-controls">
+        <h2>Sales Transactions</h2>
+        <!-- Live search input -->
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Filter by invoice, description, or country..."
+          aria-label="Filter transactions"
+        >
+      </div>
+
+      <!-- Scrollable table container for responsiveness -->
+      <div class="table-container">
+        <table id="transactionsTable">
+          <thead>
+            <tr>
+              <th>Invoice No.</th>
+              <th>Description</th>
+              <th class="text-right">Quantity</th>
+              <th class="text-right">Unit Price</th>
+              <th>Country</th>
+              <th class="text-right">Total Amount</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <!-- Rows are injected dynamically by table.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
