@@ -1,4 +1,4 @@
-window.data = [
+[
 {"invoiceno":536415,"stockcode":22530,"description":"MAGIC DRAWING SLATE DOLLY GIRL ","quantity":3,"unitprice":0.42,"customerid":12838,"country":"United Kingdom","date":"2010-01-12","hour":11,"total_amount":1.26},
 {"invoiceno":536460,"stockcode":21586,"description":"KINGS CHOICE GIANT TUBE MATCHES","quantity":12,"unitprice":2.55,"customerid":14849,"country":"United Kingdom","date":"2010-01-12","hour":12,"total_amount":30.6},
 {"invoiceno":536557,"stockcode":21485,"description":"RETROSPOT HEART HOT WATER BOTTLE","quantity":1,"unitprice":4.95,"customerid":17841,"country":"United Kingdom","date":"2010-01-12","hour":14,"total_amount":4.95},
@@ -103,4 +103,4 @@ window.data = [
 {"invoiceno":537440,"stockcode":22158,"description":"3 HEARTS HANGING DECORATION RUSTIC","quantity":8,"unitprice":2.95,"customerid":17869,"country":"United Kingdom","date":"2010-06-12","hour":17,"total_amount":23.6},
 {"invoiceno":537391,"stockcode":22666,"description":"RECIPE BOX PANTRY YELLOW DESIGN","quantity":4,"unitprice":2.95,"customerid":16550,"country":"United Kingdom","date":"2010-06-12","hour":13,"total_amount":11.8},
 {"invoiceno":537250,"stockcode":21216,"description":"SET 3 RETROSPOT TEA,COFFEE,SUGAR","quantity":4,"unitprice":4.95,"customerid":12708,"country":"Germany","date":"2010-06-12","hour":10,"total_amount":19.8}
-];
+]
